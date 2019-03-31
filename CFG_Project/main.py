@@ -6,7 +6,7 @@ app = Flask("__name__")
 
 @app.route("/")
 def index():
-    df = pd.read_csv("/Users/ns/CGF_Project/pex_menu_sheet1.csv")
+    df = pd.read_csv("pex_menu_sheet1.csv")
     pex_kcal = df[['Item', 'kcal']]
     pex_kcal_sorted = pex_kcal.sort_values(by=['kcal'])
     pex = pex_kcal_sorted.to_html(index=False)
