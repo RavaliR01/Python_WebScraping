@@ -1,0 +1,182 @@
+body {
+  background-color: white;
+  font-family: 'Fjalla One', sans-serif;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+.social-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.mapouter{
+  margin: auto;
+  padding: 10px;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+#social-container {
+  position: fixed;
+  left: 25px;
+  top: 25px;
+}
+h1 {
+  font-size: 110px;
+  font-family: 'Londrina Shadow', bold ;
+  color: white;
+  text-shadow: 0 1px 0 black;
+  z-index: 20;
+}
+h2{
+  text-align: center;
+  padding-bottom: 50px;
+}
+h6 {
+  padding: 20px 0px;
+  text-align: left;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #C0C0C0;
+    color: white;
+    float: left;
+    border: 0px;
+      border-radius: 0px 0px 0px 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.19);
+
+}
+
+        /* background color of buttons on hover */
+        .tablink:hover {
+            background-color: #C1C7C9;
+
+        }
+        .tl1:hover {
+          background-color: #CC3232;
+          box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+        .tl2:hover {
+          background-color: #C5B23C;
+          box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+        .tl3:hover {
+          background-color: #6187A9;
+          box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+        .tl4:hover {
+          background-color: orange;
+          box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */
+#Hapi  {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/static/images/header_veg.jpg');
+  }
+#Calculator {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ), url('/static/images/zizzi.jpg');
+  background-size: cover;
+}
+#Menus {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/static/images/pizza.jpg');
+  background-size: cover;
+}
+#contact_ {background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/static/images/nile.jpeg');
+    background-size: cover;
+}
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent2 {
+  color: white;
+  border-top: 80px solid white;
+  display: none;
+  padding: 50px 20px;
+  height:100%;
+
+}
+
+.colorhome {
+  background-color: #CC3232
+}
+
+.colornews {
+  background-color: #C5B23C;
+}
+.colorpizza {
+  background-color: #6187A9;
+}
+
+#HapiHome {
+  background-color: #CC3232;
+  text-align: center;
+  padding: 20px 20px;
+}
+  #pic {
+    width: 95%;
+}
+
+
+#CalculatorHome {background-color: #C5B23C;}
+
+#MenusHome {background-color: #6187A9;}
+#About {background-color: orange;}
+}
